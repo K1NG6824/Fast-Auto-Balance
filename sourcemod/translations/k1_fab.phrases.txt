@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"FAB_Chat_T"    
+    {
+        "en"        "{BLUE}[FAB] {DEAULT}You were transferred to the team {RED}Terrorists {DEAULT} for balance"
+        "ru"        "{BLUE}[FAB] {DEAULT}Вас перекинуло в команду {RED}Террористов {DEAULT}для баланса"
+    }
+	"FAB_Chat_CT"    
+    {
+        "en"        "{BLUE}[FAB] {DEAULT}You were transferred to the team{RED} Counter-Terrorists {DEAULT}for balance"
+        "ru"        "{BLUE}[FAB] {DEAULT}Вас перекинуло в команду {RED}Контр-Террористов {DEAULT}для баланса"
+    }
+}
