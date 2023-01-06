@@ -10,7 +10,7 @@ public Plugin: myinfo =
 {
 	name = "Fast Auto Balance",
 	author = "K1NG",
-	version = "1.0",
+	version = "1.1",
 	url = "https://projecttm.ru/"
 };
 
@@ -65,7 +65,7 @@ public void Event_Death(Event hEvent, const char[] sName, bool bDontBroadcast)
 		if(ClientCT-ClientT > g_iMaxDopust && ValidClient(iClient) && GetClientTeam(iClient) == CS_TEAM_CT && (!g_bAflag || !CheckFlags(iClient, gsAflag)))
 		{
 			CS_SwitchTeam(iClient, CS_TEAM_T);
-			if(g_bMSG) CGOPrintToChat(iClient, "FAB_Chat_T", iClient);
+			if(g_bMSG) CGOPrintToChat(iClient, "%T", "FAB_Chat_T", iClient);
 		}
 	}
 }
